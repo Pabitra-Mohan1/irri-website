@@ -1,0 +1,303 @@
+.horizontal-menu > li > a, .horizontal-menu > li li > a@font-face {
+ font-family:"odia-font";
+  src: url(../fonts/NotoSansOriya-Regular.ttf);
+}
+@font-face {
+ font-family:"ananta";
+  src: url(../fonts/OR51_Ananta.ttf);
+}
+
+body, h1, h2, h3, h4, h5, h6, a, p{
+    font-family: "odia-font" !important;
+      /*font-family:"ananta" !important;*/
+}
+#feedback a {
+    position: fixed;
+}
+.table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+    font-size: 20px;
+}
+
+.horizontal-menu > li > a, .horizontal-menu > li li > a {
+    font-size: 18px !important;
+}
+section#block-languageswitcher ul li {
+    float: left;
+    padding: 10px 19px;
+}
+.horizontal-menu > li {
+    padding: 6px 8px;
+}
+p, li, a {
+font-size: 20px !important;
+}
+
+.inner-cont p{
+    line-height: 28px;
+}
+
+.panel-title {
+font-size: 20px;
+}
+
+.inner-cont ul li {
+font-size: 18px;
+}
+
+.ftr-link a, .ftr-link p {
+    color: #fff;
+    font-size: 18px;
+}
+.js-quickedit-main-content ul li {
+    font-size: 18px;
+}
+.step-icon1 img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 11px;
+}
+
+/**/
+
+.step-icon-box1 {
+    bottom: 184px;
+   left: 8px;
+}
+.step-icon-box2 {
+    bottom: 255px;
+    left: 52px;
+}
+.step-icon-box3 {
+   top: 124px;
+    left: 93px;
+}
+.step-icon-box4 {
+   top: 42px;
+    left: 155px;
+}
+.step-icon-box5 {
+    top: 56px;
+    right: 208px;
+    transform: rotate(15deg);
+}
+.step-icon-box6 {
+    top: 130px;
+    right: 178px;
+    transform: rotate(15deg);
+}
+.step-icon-box7 {
+     top: 202px;
+    right: 129px;
+    transform: rotate(12deg);
+}
+.step-icon-box8 {
+    bottom: 166px;
+       right: 76px;
+    transform: rotate(10deg);
+}
+.step-icon-box a {
+    width: 169px;
+    line-height:8px;
+}
+.triangle2 {
+position: absolute;
+    right: -40px;
+    top: 32px;
+    width: 290px;
+}
+.step-icon-box9 {
+  bottom: 92px;
+    right: 59px;
+    transform: rotate(15deg);
+}
+.triangle1 {
+      position: absolute;
+    left: -15px;
+    width: 340px;
+}
+.triangle3 {
+    position: absolute;
+    top: 397px;
+    left: -15px;
+    width: 506px;
+}
+.step-icon-box10 {
+bottom: 25px;
+    right: 119px;
+}
+.step-icon-box14 {
+       bottom: 25px;
+    left: -19px;
+}
+.step-icon-box13 {
+   bottom: 25px;
+    left: 85px;
+}
+.step-icon-box12 {
+bottom: 25px;
+    right: 264px;
+}
+.step-icon-box11 {
+bottom: 25px;
+    right: 195px;
+}
+.step-production-head3 {
+    left: 140px;
+bottom: -49px;
+}
+.pre-plant-text-sec {
+    margin-top: 30px;
+}
+.step-production-head1 {
+    position: absolute;
+    left: -60px;
+    top: 177px;
+}
+.horizontal-menu > li ul ul {
+    left: 14.75em;
+}
+.step-icon-box a{font-size:12px !important;}
+@media screen and (max-width:560px){
+    .triangle3 {
+    position: absolute;
+    top: 243px;
+    left: 0;
+    width: auto;
+    height: 101px;
+}
+.triangle1 {
+    position: absolute;
+    left: 6px;
+    width: auto;
+}
+.triangle2 {
+    position: absolute;
+    right: 5px;
+    top: 32px;
+    width: auto;
+}
+
+.step-icon-box1 {
+    bottom: 45px;
+    left: 19px;
+}
+.step-icon-box a {
+    width: 134px;
+}
+.step-production-head1 {
+    position: absolute;
+    left: -1px;
+    top: 102px;
+}
+.step-icon-box5 {
+      top: 38px;
+    right: 216px;
+}
+.step-icon-box6 {
+       top: 71px;
+    right: 187px;
+    transform: rotate(19deg);
+}
+.step-icon-box7 {
+        top: 114px;
+    right: 155px;
+    transform: rotate(19deg);
+}
+.step-icon-box9 {
+    bottom: 87px;
+    right: 128px;
+}
+.step-icon-box2 {
+    bottom: 90px;
+    left: 50px;
+}
+.step-icon-box3 {
+    top: 155px;
+    left: 80px;
+}
+.step-icon-box4 {
+    top: 98px;
+    left: 115px;
+}
+.step-icon-box8 {
+ bottom: 139px;
+    right: 121px;
+    transform: rotate(23deg);
+}
+.step-icon-box10 {
+    bottom: 34px;
+    right: 165px;
+}
+.step-icon-box11 {
+    bottom: 38px;
+    right: 201px;
+}
+.step-icon-box13 {
+    bottom: 34px;
+    left: 47px;
+}
+.step-icon-box12 {
+    bottom: 35px;
+    right: 240px;
+}
+.step-icon-box14 {
+    bottom: 38px;
+    left: -19px;
+}
+.step-production-head3 {
+    left: 97px;
+    bottom: 0;
+    font-size: 15px;
+}
+.step-production-head2 {
+    right: 47px;
+    top: 111px;
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 360px)
+a#toggle-icon {
+    top: 132px;
+}
+}
+@media screen and (max-width:1277px){
+    .horizontal-menu > li {
+    padding: 6px 6px !important;
+}
+}
+.tools-changes {
+    height: 353px !important;
+}
+.fact-grid {
+max-height: 407px;
+min-height: 407px;
+}
+.tools-changes {
+    height: 466px !important;
+}
+.step-production-head1 {
+    position: absolute;
+    left: -30px;
+    top: 177px;
+}
+
+.step-production-head2 {
+    right: 41px;
+}
+.step-icon-box a {
+    font-size: 10px !important;
+}
+
+.step-production-head3 {
+    left: 140px;
+    bottom: -62px;
+}
+.mega-menu ul li a {
+    font-size: 16px !important;
+}
+.mega-menu ul li:last-child {
+    font-size: 16px !important;
+}
+.mega-menu ul li {
+    padding: 10px 15px;
+}

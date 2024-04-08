@@ -1,0 +1,31 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a breadcrumb trail.
+ *
+ * Available variables:
+ * - breadcrumb: Breadcrumb trail items.
+ *
+ * @ingroup templates
+ */
+#}
+{% if breadcrumb %}
+<div class="mega-menu">
+  <ul>
+    {% for item in breadcrumb %}
+      <li {{ item.attributes }}>
+        {% if item.url %}
+          
+          <a href="{{ item.url }}">
+            {% if item.text != "Home" %}
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+            {% endif %} {{ item.text }}</a>
+        {% else %}
+          <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+          {{ item.text }}
+        {% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endif %}
